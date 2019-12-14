@@ -1,0 +1,148 @@
+header{
+    font-family: helvetica;
+    background-color: black
+}
+
+h1{
+    font-size: 32px;
+    margin:0;
+    text-align: left; float: left;
+    color:#E5E7ED;
+    
+}
+
+h2{
+    font-size: 16px;
+    float: right;
+    text-align: right;
+    color:#E5E7ED;
+}
+
+img{
+width:100%;
+height: 100%;
+text-align: center;
+padding-bottom: 10px;
+}
+
+.navigation{
+    display: inline;
+    color:#E5E7ED;
+}
+
+#listNav{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    text-align: right;
+    float: right;
+    padding: 12px 10px;
+    padding-top:10px;   
+}
+
+
+
+#listNav li{
+    float: right;
+    padding: 12px;
+    text-align: right;
+    padding-top:10px;
+}
+
+section{
+    display: inline-block;
+    
+    
+
+  
+
+}
+body{
+    font-family: helvetica;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: black;
+}
+
+.col {
+    width:40%;
+    /*float:left;*/
+    
+    box-sizing: border-box;
+    
+}
+
+.paragraph{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    display: inline-block;
+    width: 40%;
+    color:#E5E7ED;
+    
+}
+
+
+    
+    
+    /*justify-content: space-around;*/
+    /*align-items: center;*/
+
+
+
+.allrows{
+    display: flex;
+    align-items: stretch;
+    bottom: 0;
+    background-color: #E5E7ED;
+    list-style-type: none;
+    flex-grow: 1;
+    font-size: 12px;
+    
+}
+
+#contact{
+    
+    padding: 30px;
+    padding-bottom: 37px;
+    float: left;
+    flex-direction: column;
+    align-items: bottom;
+    font-size: 32px;
+}
+#firstrow{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    flex-basis: 100%;
+    /*flex-grow: 1;*/
+    
+    
+}
+#secondrow{
+    display:flex;
+    list-style-type: none;
+    justify-content: space-around;
+    flex-basis: 100%;
+    
+    
+}
+.email{
+    list-style-type: none;
+}
+
+.cell{
+    list-style-type: none;
+}
+
+.office{
+    list-style-type: none;
+}
+.linkedIn{
+    list-style-type: none;
+}
+.instagram{
+    list-style-type: none;
+}
+.resume{
+    list-style-type: none;
+}
